@@ -38,19 +38,24 @@ Execution:
 1. The following data are essential and shoud be put in the working directory:
 
 BUS_ROUTE_DIC.csv
+
 GPS_DATA.csv
+
 ROAD_NETWORK.geojson
+
 AFC_DATA.csv
 
 2. The following data are optional. Only essential is the code is run on the trainning data
 
 
 TRAINING_BUSSTOPS_ROUTEID_LIST.csv
+
 TRAINING_ALIGHTING_GUID_LIST.csv
 
 3. Running task 1(bus stop detection)
 
 // only run on Unix-like platform
+
 source("load_task1_multiProcess.R")
 
 4. Running task 2(AFC alighting detection)
@@ -64,13 +69,19 @@ Explanation:
 1. Bus stop detection
 
 1) outlier removal (outside the range of road map)
+
 2) speed filtering (keep points with speed less than 3m/s)
+
 3) direction identification (find out start points and end ponints for each route, and then add direction tag to each point)
+
 4) DBSCAN clustering on each direction of each route(epsilon = 30 meters. MinPoints = 20)
 
 2. AFC alighting detection
 
 1) AFC tagging: route_id and direction
+
 2) next_AFC lookup: find the next AFC(time, bus_id) of the same card, for each AFC
+
 3) next_AFC mapping: find the position of next_AFC (using the GPS data of the bus)
+
 4) Alighting stop detection: for each AFC, find out the bus stop on the same route and direction and which is the closest to the position of its next_AFC, based on the bus stop result from task1
