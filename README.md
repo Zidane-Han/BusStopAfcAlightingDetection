@@ -4,11 +4,17 @@
 The research data of this project come from ISPRS Scientific Initiative --- Open Data Challenge which is organized by Shenzhen Key Laboratory of Spatial Smart Sensing and Services, Shenzhen University in 2015. This project has been jointly funded by International Society for Photogrammetry and Remote Sensing (ISPRS), Shenzhen University, and Science and Technology Innovation Commission of Shenzhen Municipality (SZSTI).
 
 Author:
+
 陈焕发 Huanfa Chen
+
 高晗 Han Gao
+
 邹斌 Bin Zou
 
 Contact:
+
 Name: Huanfa Chen
+
 Organisation: University College London, UK
+
 Email: huanfa.chen@ucl.ac.uk; chenhuanfa@gmail.com
