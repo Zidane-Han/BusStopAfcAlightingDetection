@@ -9,21 +9,17 @@ The research data of this project come from ISPRS Scientific Initiative --- Open
 
 Author:
 
-陈焕发 Huanfa Chen
+陈焕发 Huanfa Chen (huanfa.chen@ucl.ac.uk)
 
-高晗 Han Gao
+高晗 Han Gao (han.gao.14@ucl.ac.uk)
 
-邹斌 Bin Zou
+邹斌 Bin Zou (bin.zou.14@ucl.ac.uk)
 
-*****************************************************
 
-Contact:
+Affiliation:
 
-Name: Huanfa Chen
+University College London, UK
 
-Organisation: University College London, UK
-
-Email: huanfa.chen@ucl.ac.uk; chenhuanfa@gmail.com
 
 *****************************************************
 
